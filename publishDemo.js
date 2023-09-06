@@ -2,10 +2,9 @@ require("dotenv").config();
 const { PubSub } = require("@google-cloud/pubsub");
 const topicObj = JSON.parse(process.env.TOPIC_INFO);
 const projectId = process.env.PROJECT_ID;
-const subscriptionName = process.env.PROJECT_ID;
 const pubsub = new PubSub({ projectId });
 
-const publishMessage = async (subscriptionName, topicName, message) => {
+const publishMessage = async (topicName, message) => {
   const topicNameOrId = topicObj[topicName].name;
 
   const topic = pubsub.topic(topicNameOrId);
@@ -79,4 +78,4 @@ const bulkMessage = {
     sender: "Test Sender",
   },
 };
-publishMessage(subscriptionName, "bulk", bulkMessage);
+publishMessage("bulk", bulkMessage);
