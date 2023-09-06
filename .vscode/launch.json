@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "Versa-Mail-Demo",
+      "gen": "GEN_2",
+      "revision": "versa-mail-demo-00015-yed",
+      "entryPoint": "versaMailService",
+      "testInput": "versaMailService",
+      "region": "europe-west1",
+      "runtime": "nodejs20"
+    }
+  ]
+}
