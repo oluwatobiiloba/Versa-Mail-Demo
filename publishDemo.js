@@ -18,6 +18,7 @@ const publishMessage = async (topicName, message) => {
   };
   const sendMessage = await retrievedTopic.publishMessage({
     json,
+    attributes: customAttributes,
   });
   console.log(sendMessage);
 };
