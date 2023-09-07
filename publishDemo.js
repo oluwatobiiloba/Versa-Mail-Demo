@@ -57,7 +57,7 @@ const bulkMessage = {
       body: "Hello User One, welcome to our community!",
       attachments: [
         {
-          name: "image 1",
+          name: "image1",
           url: "https://stackliteblob.blob.core.windows.net/image/Nodemailer22_profile_image.png",
         },
       ],
@@ -68,7 +68,7 @@ const bulkMessage = {
       body: "Hello User Two, welcome to our community!",
       attachments: [
         {
-          name: "image 2",
+          name: "image2",
           url: "https://stackliteblob.blob.core.windows.net/image/Nodemailer22_profile_image.png",
         },
       ],
