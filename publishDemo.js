@@ -79,4 +79,4 @@ const bulkMessage = {
     sender: "Test Sender",
   },
 };
-publishMessage("bulk", singleMessage);
+publishMessage("single", singleMessage);

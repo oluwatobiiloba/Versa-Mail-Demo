@@ -6,7 +6,7 @@
       "request": "launch",
       "functionName": "Versa-Mail-Demo",
       "gen": "GEN_2",
-      "revision": "versa-mail-demo-00018-xid",
+      "revision": "versa-mail-demo-00021-qex",
       "entryPoint": "versaMailService",
       "testInput": "versaMailService",
       "region": "europe-west1",
